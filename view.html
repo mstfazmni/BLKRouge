@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>View</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="view.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+<body>
+        <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img class="icon-header" src="Logo For Shirt.webp">
+            <a class="navbar-brand" href="#">BLKRouge</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">About</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+        <!-- Main Content-->
+    <main class="main-cs" style="padding-bottom: 80px;">
+    <!-- <section class="section-card"> -->
+    <div class="album py-5 bg-light">
+
+        <section class="full-screen-row">
+    
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://static.wixstatic.com/media/e4f166_b3e039c07ec14582b563a50822741588~mv2_d_3646_4592_s_4_2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e4f166_b3e039c07ec14582b563a50822741588~mv2_d_3646_4592_s_4_2.jpg" class="bd-placeholder-img card-img-top" alt="Image description" width="100%" height="auto">
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="redirectToCheckout()">Add to cart</button>
+    
+                    </div>
+                    <small class="text-muted">$169.99</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ============== -->
+
+            <section class="section-details">
+                <h1>
+                    The blazer is mad of cotton.
+                </h1>
+                <p>
+                    Code: 0015
+                </p>
+    
+                <p >
+                    Price: <span  class="price-p">$60.00</span>
+                </p>
+    
+                <label for="quantity" class="quantity">Quantity</label>
+                <br>
+                <input type="number" class="form-control-input" id="exampleNumber" name="exampleNumber" placeholder="1" min="0" max="100">
+                <button class="addTocart-btn">Add to Cart</button>
+                <br>
+                <button class="buyNow-btn">Buy Now</button>
+    
+                <h3>
+                    Product Info
+                </h3>
+    
+                <p>
+                    I'm a product detail. I'm a great place to add more information about your product such as sizing,
+                     material, care and cleaning instructions.
+                      This is also a great space to write what makes this product special and how your customers can benefit from this item.
+    
+                </p>
+            </section>
+
+        </section>
+
+        
+            <!--  -->
+    
+            
+
+</main>
+
+<!--  Footer  -->
+<!-- <div class="b-example-divider"></div> -->
+<div class="container-fluid fixed-bottom background-color">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><img src="twitter.png" class="bi" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="instagram.png" class="bi" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="facebook.png" class="bi" width="24" height="24"></a></li>
+      </ul>
+    </footer>
+  </div>
+<!-- Bootstrap core JS -->
+<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
